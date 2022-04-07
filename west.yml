@@ -171,7 +171,7 @@ manifest:
       revision: 8e303c264fc21c2116dc612658003a22e933124d
       path: modules/lib/lz4
     - name: mbedtls
-      revision: 3e3e58a92de76069730c63e0d524f40fea948a61
+      revision: refs/pull/35/head
       path: modules/crypto/mbedtls
       groups:
         - crypto
@@ -226,12 +226,12 @@ manifest:
       groups:
         - debug
     - name: trusted-firmware-m
-      revision: bfbd7803b0ed77680e220e44ce6fb363ef2a4224
+      revision: refs/pull/70/head
       path: modules/tee/tf-m/trusted-firmware-m
       groups:
         - tee
     - name: tf-m-tests
-      revision: 52814181f0fde6d1422fac204d42cde30c62e40e
+      revision: refs/pull/2/head
       path: modules/tee/tf-m/tf-m-tests
       groups:
         - tee
